@@ -3,6 +3,6 @@ class JobsController < ApplicationController
     @job = Job.find(params[:id])
   end
   def index
-    @job = Job.all
+    @jobs = Job.all
   end
 end
